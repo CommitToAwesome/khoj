@@ -1,58 +1,8 @@
-# KHOJ — Full Honest Analysis, Product Vision & Execution Roadmap
-### *Because your idea deserves the truth, not applause.*
-### v2.0 — Now includes 🌿 Green Trail (SDG Feature)
+# KHOJ — Product Vision & Execution Roadmap
 
+### 7 Different Companies in 1 App
 
----
-
-## 🟡 First: Why Can't Foreigners Use PayPal in India?
-
-This is important context before diving into KHOJ.
-
-PayPal **does** operate in India — but only for specific things:
-
-| What PayPal CAN do in India | What PayPal CANNOT do in India |
-|---|---|
-| Receive international payments (freelancers, exporters) | Domestic P2P payments (person to person) |
-| Pay international merchants online | Pay at Indian UPI QR codes |
-| NRI remittances from abroad | Scan a Zomato/Swiggy QR |
-| E-commerce for international buyers | Pay auto-wala, chai stall, hotel |
-
-**Why?**
-
-```
-1. March 2021: PayPal voluntarily shut down domestic payments in India
-   → Said it was refocusing on international/cross-border only
-   → Real reason: Could not compete with UPI (0% MDR, instant, everywhere)
-
-2. RBI Data Localization (2018 circular):
-   → All payment data of Indian users must be stored ONLY in India
-   → PayPal had servers in Singapore/US — took time to comply
-   → RBI banned PayPal from onboarding new merchants briefly in 2021
-
-3. UPI killed the market:
-   → Why would anyone use PayPal domestically when GPay/PhonePe is instant and free?
-   → PayPal couldn't compete on price (0% vs PayPal's 2-4%)
-
-4. PPI License requirement:
-   → To hold INR wallet for users, you need RBI's PPI license
-   → PayPal chose not to pursue this for domestic payments
-
-Conclusion for KHOJ/RupeeGo:
-   PayPal is NOT a competitor for what you're building.
-   UPI One World (which barely works) is your only real comparison.
-   The gap is still wide open.
-```
-
----
-
-## 🔴 THE HONEST CRITIQUE — Read This First
-
-You asked for full honesty. Here it is, no filter.
-
-### The Big Problem: You're Describing 7 Different Companies in 1 App
-
-Let me show you what KHOJ currently is if you map it to existing companies:
+What KHOJ currently is if mapping it to existing companies:
 
 ```
 Feature you described          → What it competes with
@@ -77,15 +27,15 @@ This is the #1 startup mistake — feature overload before validation.
 ```
 ❌ The Reels/Shorts platform
    Why cut: Building a video platform is $10M+ just in CDN/storage costs.
-   TikTok spent billions. Instagram Reels took years. You CANNOT do this
+   TikTok spent billions. Instagram Reels took years. We CANNOT do this
    as a starting feature. Users won't come to a new app for video when 
-   Instagram exists. This kills your MVP before it starts.
+   Instagram exists. This kills our MVP before it starts.
    
    What to do instead: Let users LINK their Instagram/YouTube reel.
    You embed it. Zero storage cost. Smart curation instead of hosting.
 
 ❌ "Solve overpriced airfare"
-   Why cut: You CANNOT fix airline pricing. This is not an app problem.
+   Why cut: We CANNOT fix airline pricing. This is not an app problem.
    It's a fuel cost + airport tax + government policy problem.
    No app has ever solved this. Skyscanner didn't. Google Flights didn't.
    
@@ -111,10 +61,10 @@ This is the #1 startup mistake — feature overload before validation.
    not just format (video vs text).
 ```
 
-### What's STRONG — Don't Touch These
+### What's STRONG 
 
 ```
-✅ Adaptive itinerary engine — this is your real differentiator
+✅ Adaptive itinerary engine — this is our real differentiator
    Nobody does real-time adaptation well. Google Travel is static.
    MakeMyTrip is static. THIS is the moat. Protect and develop this.
 
@@ -123,7 +73,7 @@ This is the #1 startup mistake — feature overload before validation.
    This alone could get international press coverage.
 
 ✅ Video-first reviews (concept) — smart direction
-   Just don't HOST the video yourself. Embed/link instead.
+   We just don't HOST the video yourself. Embed/link instead.
 
 ✅ Rewards for contributing + learning — clever loop
    Users earn by contributing trusted content. This is how Waze
@@ -143,7 +93,7 @@ This is the #1 startup mistake — feature overload before validation.
    This is community-powered, and no big company can replicate it.
 ```
 
-### What's MISSING That You Didn't Mention
+### What's MISSING 
 
 ```
 🔴 Offline functionality — CRITICAL
@@ -187,8 +137,6 @@ This is the #1 startup mistake — feature overload before validation.
 ---
 
 ## 🏗️ The Restructured KHOJ Vision
-
-After critique, here's what KHOJ should actually be:
 
 > **KHOJ is India's first AI-powered adaptive travel companion that helps any traveler — domestic or international — discover, plan, experience, pay for, and travel responsibly across India, entirely within one trusted platform.**
 
