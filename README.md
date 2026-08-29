@@ -1,5 +1,7 @@
 # KHOJ — Full Honest Analysis, Product Vision & Execution Roadmap
 ### *Because your idea deserves the truth, not applause.*
+### v2.0 — Now includes 🌿 Green Trail (SDG Feature)
+
 
 ---
 
@@ -188,9 +190,9 @@ This is the #1 startup mistake — feature overload before validation.
 
 After critique, here's what KHOJ should actually be:
 
-> **KHOJ is India's first AI-powered adaptive travel companion that helps any traveler — domestic or international — discover, plan, experience, and pay for their India trip, entirely within one trusted platform.**
+> **KHOJ is India's first AI-powered adaptive travel companion that helps any traveler — domestic or international — discover, plan, experience, pay for, and travel responsibly across India, entirely within one trusted platform.**
 
-### The 3 Pillars (Keep it this simple):
+### The 4 Pillars (updated):
 
 ```
 Pillar 1: DISCOVER + PLAN
@@ -212,7 +214,16 @@ Pillar 3: SAFE + SUPPORTED
    Offline mode (downloadable destination packs)
    Multilingual support (10 languages at launch)
    Verified local guide marketplace
+
+Pillar 4: GREEN TRAIL 🌿 (SDG)
+   Carbon footprint tracker per trip (train vs flight comparison)
+   Report & Route — garbage complaints routed to Swachh Bharat + municipal
+   Eco-certified stay + experience badges
+   Leave No Trace pledges for sensitive destinations
+   Cleanup drive participation with NGO partners
+   KHOJ Green Points for sustainable travel choices
 ```
+
 
 ---
 
@@ -266,6 +277,9 @@ Flight comparison (Skyscanner API)    ✅ YES   Quick win, API exists
 Offline downloadable packs            ✅ YES   Critical, do early
 Multilingual (5 languages)            ✅ YES   English, Hindi, French,
                                                German, Japanese
+Green Trail — carbon tracker          ✅ YES   1 API call, huge SDG value
+Green Trail — Report & Route          ✅ YES   Swachh Bharat API + maps
+Green Trail — Leave No Trace pledge   ✅ YES   Pure UI, zero backend cost
 
 ──────────────────────────────────────────────────────────────────
 Full video hosting platform           ❌ NO    Post-Series A
@@ -276,7 +290,11 @@ AI-generated informational videos     ❌ NO    Version 3
 In-app reels/shorts                   ❌ NO    Never (use links)
 Written reviews system                ❌ NO    Start with video links
 Bus/local transport data              ❌ NO    Version 2
+Green Trail — Cleanup drive map       ❌ NO    Version 2 (needs NGO data)
+Green Trail — Eco-certified badges    ❌ NO    Version 2 (needs audit system)
+Green Trail — KHOJ Green Points       ❌ NO    Version 2 (needs rewards infra)
 ```
+
 
 ---
 
@@ -402,19 +420,34 @@ Tier 2 — Scale Revenue (Year 1-2)
      → Cooking classes, photography tours, pottery workshops
      → Long tail of local experience providers
 
+  7. 🌿 Green Trail — Eco-certified listing premium (NEW)
+     → Eco-certified hotels/stays pay ₹5,000–15,000/year for the badge
+     → KHOJ audits and verifies them (or partners with Green Key / EarthCheck)
+     → Eco badge = higher trust = more bookings = hotels want it
+     → Carbon offset partner commission (SankalpTaru, Grow-Trees)
+       → User buys ₹90 tree plantation → KHOJ takes 15% = ₹13.50/offset
+
 Tier 3 — Late Revenue (Year 2+)
-  7. Advertising (contextual, not intrusive)
+  8. Advertising (contextual, not intrusive)
      → "You're near Jaipur's Johri Bazaar — 10% off at this jeweler"
      → Location-triggered, permission-based, opt-in only
      
-  8. B2B: State Tourism Board partnerships
+  9. B2B: State Tourism Board partnerships
      → Rajasthan Tourism pays KHOJ to feature their destinations
      → Government tourism promotion budgets are large
 
-  9. Data insights (anonymized, aggregated)
-     → "tourists from France prefer heritage over beaches in October"
-     → Valuable to hotels, tourism boards, airlines
+  10. 🌿 Green Trail — B2B CSR partnerships (NEW)
+      → Corporates with CSR budgets fund cleanup drives via KHOJ
+      → "Mahindra + KHOJ Clean Ladakh Drive — 500 volunteers"
+      → CSR money is large and actively looking for visible impact
+      → KHOJ becomes the platform for responsible tourism CSR
+
+  11. Data insights (anonymized, aggregated)
+      → "tourists from France prefer heritage over beaches in October"
+      → "eco-certified stays have 23% higher repeat booking rate"
+      → Valuable to hotels, tourism boards, airlines, sustainability orgs
 ```
+
 
 ---
 
@@ -529,15 +562,20 @@ Forex Rates      Open Exchange Rates      $12/month    🔴 Critical
 Payments (UPI)   PSP Bank APIs            Partnership  🔴 Critical
 Payments (Card)  Stripe                   1.5%/txn     🔴 Critical
 Push Notif       Firebase Cloud Messaging Free         🔴 Critical
+Carbon Data      Climatiq API             Free tier    🔴 Critical (Green Trail)
+Swachh Bharat    SBM Open Data Portal     Free         🔴 Critical (Green Trail)
 SMS/WhatsApp     Twilio + MSG91           Pay per use  🟡 Important
 KYC              HyperVerge               Pay per use  🟡 Important
 Auth             Firebase Auth            Free tier    🟡 Important
 Analytics        Mixpanel                 Free tier    🟡 Important
 Crash Reports    Firebase Crashlytics     Free         🟡 Important
 AI/LLM           Google Gemini API        Pay per use  🟡 Important
+Carbon Offset    SankalpTaru API          Partner      🟡 Important (Green Trail)
+NGO Events       Volunteer World API      Free         🟡 Important (Green Trail)
 Video Embed      YouTube Data API         Free tier    🟢 Nice to have
 Email            SendGrid / Resend        Free tier    🟢 Nice to have
 ```
+
 
 ---
 
@@ -747,15 +785,22 @@ Milestone: 50 users complete a full trip using KHOJ
 
 ```
   → Add 20 more destinations
-  → Launch KHOJ Points reward system
+  → Launch KHOJ Points reward system (including KHOJ Green Points)
   → Verified guide marketplace (5 cities first)
   → Train booking (IRCTC integration — hard but worth it)
   → 10 language support
   → Community video reviews (YouTube embed system)
+  → 🌿 Green Trail: Eco-certified stay badges (launch audit program)
+  → 🌿 Green Trail: Cleanup drive map with NGO partners
+     (Swachh Bharat, Goonj, Vatavaran)
+  → 🌿 Green Trail: KHOJ Green Points fully live
+  → 🌿 Green Trail: First B2B CSR partnership (approach Mahindra, Tata)
   → Series A fundraise ($3–5M target)
+  → Apply for UN Tourism "Tourism for SDGs" recognition
 
 Milestone: 50,000 MAU, ₹1 crore monthly GMV
 ```
+
 
 ### Phase 3: Scale (Month 19–36)
 
@@ -829,13 +874,281 @@ Grant options (don't overlook these):
 
 ---
 
-## 🎯 The One-Page KHOJ Summary (For Your Pitch)
+## 🌿 GREEN TRAIL — Full Feature Specification
+
+*KHOJ's SDG pillar. Responsible tourism, built into the travel experience.*
+
+> **Core philosophy**: Don't document the problem. Enable the solution.
+> Positive action over passive reporting. Community impact over individual guilt.
+
+---
+
+### Feature 1: Carbon Footprint Tracker
+
+```
+When & Where:
+  → Appears on the flight search / comparison screen
+  → Appears on the itinerary summary ("Your trip's carbon total")
+
+How it works:
+  User searches Delhi → Goa flights
+        ↓
+  KHOJ calls Climatiq API (free, accurate carbon calculation)
+        ↓
+  Shows:  ✈️  Flight:  142 kg CO₂  |  ₹4,800
+          🚂  Train:    18 kg CO₂  |  ₹1,200  ← 7 hrs longer
+          🌱  "Choose train = save 124 kg CO₂ + ₹3,600"
+        ↓
+  If user picks flight anyway:
+    "Offset your 142 kg CO₂ for just ₹90?"
+    → Plant 3 trees via SankalpTaru
+    → "Carbon Neutral Trip 🌱" badge added to profile
+    → Shareable on WhatsApp / Instagram stories
+
+Data needed:
+  → Climatiq API: mode of transport + distance → CO₂ kg (free tier)
+  → No extra backend needed. Pure API call.
+
+Cost to build: 2–3 days of developer time. Seriously.
+```
+
+---
+
+### Feature 2: Report & Route (Garbage Reporting Done Right)
+
+```
+The wrong version: "Upload a garbage photo → it sits in our database"
+The right version:  "Report → KHOJ routes it to people who can fix it"
+
+How it works:
+  User spots garbage at a tourist spot
+        ↓
+  Taps "Report Dirty Spot" (available on every place card)
+        ↓
+  Takes a photo (GPS auto-tagged — no location spoofing possible)
+        ↓
+  KHOJ shows: "Reporting to:
+    ✅ Swachh Bharat Mission portal
+    ✅ [State] Tourism Board
+    ✅ [City] Municipal Corporation (via their grievance portal)"
+        ↓
+  One tap → complaint filed to ALL THREE simultaneously
+        ↓
+  User gets +20 KHOJ points immediately
+  If complaint is resolved within 30 days → +30 bonus points + notification
+        ↓
+  Public: "This spot was reported and cleaned — reported by 12 KHOJ users"
+          (positive, community-driven, not shameful)
+
+AI moderation:
+  → GPS + photo timestamp verified (can't submit old photos)
+  → Computer vision confirms it's actually outdoor/garbage scene
+  → Duplicate detection: 5+ reports from same location = escalate priority
+
+What NOT to do:
+  ❌ Don't make reports public immediately (don't become "India is dirty" feed)
+  ❌ Don't show usernames on reports (protect reporters from backlash)
+  ✅ Only show aggregated public stats: "342 spots cleaned via KHOJ in Jaipur"
+```
+
+---
+
+### Feature 3: Leave No Trace Pledge
+
+```
+Triggered for: Spiti Valley, Rann of Kutch, Sundarbans, Andaman,
+               all Himalayan treks, river rafting spots, coral reef areas
+
+Flow:
+  User creates itinerary for Spiti Valley
+        ↓
+  Before generating itinerary, KHOJ shows a 3-slide card:
+    Slide 1: "Spiti is a cold desert. It has no waste management system."
+             Beautiful photo of Spiti. Emotional, not preachy.
+    Slide 2: "3 things to pack: reusable bags, steel bottle, hand sanitizer"
+             Practical, actionable.
+    Slide 3: "I pledge to carry my waste back."
+             [Take the Pledge] button
+        ↓
+  User taps pledge → +10 KHOJ points → itinerary generates
+        ↓
+  During the trip, gentle contextual nudges (NOT annoying):
+    "You're near Pin Valley National Park. No plastic beyond this point."
+        ↓
+  After trip:
+    "How was Spiti? Did you pack out your waste?"
+    [Yes, I did! 🌱 +20 pts]  [I tried my best]  [Tell us what was hard]
+    Feedback feeds back into improving the destination guide.
+
+Design rule: NEVER preachy. ALWAYS empowering.
+```
+
+---
+
+### Feature 4: Eco-Certified Stay Badges
+
+```
+3 badge tiers:
+
+🌿 KHOJ ECO STAY
+  Criteria: Any 3 of:
+    - Solar/renewable energy used
+    - No single-use plastic in rooms
+    - Rainwater harvesting
+    - Organic waste composting
+    - Sources food from local farmers
+  How verified: Self-declaration + photo evidence + user review flags
+  Cost to hotel: ₹5,000/year listing fee
+  Benefit to hotel: "Eco Stay" filter → more bookings from conscious travelers
+
+🌿🌿 KHOJ GREEN CERTIFIED
+  Criteria: International certification (Green Key, EarthCheck, or equivalent)
+  How verified: Upload certificate → KHOJ verifies authenticity
+  Cost to hotel: ₹12,000/year (premium badge)
+  Benefit: Appears first in "eco stays" filter, highlighted in itineraries
+
+🌿🌿🌿 KHOJ ZERO FOOTPRINT
+  Criteria: Carbon-neutral certified stay
+  Reserved for exceptional properties (e.g., Evolve Back resorts level)
+  KHOJ personally visits and verifies (Year 2+ only)
+
+User Experience:
+  → Filter: "Show only eco-certified stays" (one toggle)
+  → Each eco badge has a tooltip explaining exactly what it means
+  → Eco-certified stays get a green border on listing cards
+```
+
+---
+
+### Feature 5: Cleanup Drive Map
+
+```
+Data source: Partner with NGOs (Swachh Bharat volunteers, Goonj,
+             Vatavaran, local Rotary clubs, YouthForSewa)
+
+How it appears:
+  → "Green Trail" tab in app shows a map
+  → Green pins = upcoming cleanup drives near you
+  → "23 people joining this Saturday — Juhu Beach cleanup, 7AM"
+
+User joins:
+  → Tap "Join" → added to event
+  → Day-of reminder notification
+  → On arrival: scan event QR code (check-in proof)
+  → After event: optional group photo + weight of waste collected
+  → User earns 100 KHOJ Green Points (highest in the system)
+
+For NGO partners:
+  → Free to list events on KHOJ (incentive to partner)
+  → KHOJ handles volunteer discovery + check-in logistics
+  → NGO gets data: "340 volunteers found via KHOJ in 2026"
+  → This data helps them with their own grant applications
+
+Scale vision:
+  "KHOJ is how India's cleanup NGOs find volunteers."
+  This becomes its own network effect.
+```
+
+---
+
+### Feature 6: KHOJ Green Points — Full Reward System
+
+```
+EARNING GREEN POINTS:
+  Action                                    Points
+  ─────────────────────────────────────────────────
+  Filed a garbage report                    +20 pts
+  Report resolved/cleaned                   +30 pts (bonus)
+  Took Leave No Trace pledge                +10 pts
+  Completed pledge (post-trip confirmed)    +20 pts
+  Chose train over flight (verified)        +50 pts
+  Booked eco-certified stay                 +30 pts
+  Offset carbon for a trip                  +40 pts
+  Participated in cleanup drive             +100 pts
+  Referred a friend who took a pledge       +25 pts
+
+REDEEMING GREEN POINTS:
+  Reward                              Cost    Where
+  ─────────────────────────────────────────────────
+  Tree planted in your name           200 pts  SankalpTaru
+  ₹100 off eco-certified stay         500 pts  KHOJ booking
+  KHOJ Pro 1 month free               800 pts  KHOJ app
+  5% RupeeGo forex discount           600 pts  RupeeGo wallet
+  "Green Traveler" profile badge       150 pts  Social flex
+  Donate to a cleanup NGO (₹50)       300 pts  Goonj / Vatavaran
+
+KHOJ GREEN LEADERBOARD (opt-in):
+  → "Top Green Travelers in Goa this month"
+  → City-level competition (Jaipur vs Udaipur cleanup rivalry)
+  → Annual "KHOJ Green Champion" — 1 free trip to an eco-destination
+```
+
+---
+
+### The SDG Alignment Map
+
+```
+KHOJ Green Trail feature          → SDG Target
+
+Carbon tracker + train nudge      → SDG 13.2 (Climate Action)
+Carbon offset via tree planting   → SDG 15.2 (Life on Land)
+Report & Route (garbage)          → SDG 11.6 (Sustainable Cities)
+Eco-certified stay badges         → SDG 12.b (Sustainable Tourism)
+Leave No Trace pledge             → SDG 15.1 (Terrestrial ecosystems)
+Cleanup drive map                 → SDG 17.17 (Multi-stakeholder partnerships)
+Green Points for sustainable choices → SDG 12.8 (Awareness for sustainability)
+
+KHOJ overall platform             → SDG 11.4 (Cultural heritage protection)
+RupeeGo (reduce cash dependency)  → SDG 10 (Reduced inequalities)
+Emergency SOS for women           → SDG 5.2 (Gender equality / safety)
+Hidden gems + local economy       → SDG 8.9 (Sustainable tourism economy)
+```
+
+---
+
+### Why Green Trail Is Actually Smart Business (Not Just Charity)
+
+```
+1. Unlocks government money
+   → Ministry of Tourism has "Responsible Tourism" grant programs
+   → State govts (Kerala, Rajasthan, Sikkim) are DESPERATE for
+     platforms that help them manage tourist impact
+   → Swachh Bharat Mission is a political priority — alignment = support
+
+2. Unlocks impact investor money
+   → Omidyar Network India: funds SDG-aligned platforms
+   → Acumen: invests in social enterprises
+   → These investors have LOWER return expectations = better terms
+
+3. Unlocks press coverage
+   → "Indian startup solving India's tourist pollution problem" = 
+     TechCrunch, The Hindu, BBC India — all write this story
+   → You cannot buy this PR. Green Trail generates it for free.
+
+4. Unlocks corporate CSR budgets
+   → India's Companies Act mandates 2% of profit to CSR
+   → Top 500 Indian companies spend ₹15,000+ crore on CSR annually
+   → "Mahindra + KHOJ cleanup drive" is both: marketing + CSR compliance
+   → CSR deals = non-dilutive revenue
+
+5. Differentiates KHOJ from every travel app on earth
+   → MakeMyTrip: no SDG features
+   → TripAdvisor: no SDG features
+   → Booking.com: a "sustainability badge" that nobody trusts
+   → KHOJ: end-to-end responsible travel. First in India.
+```
+
+---
+
+## 🎯 The One-Page KHOJ Summary (Updated — For Your Pitch)
 
 ```
 PROBLEM:
-  Traveling India is overwhelming, unsafe, and expensive — 
-  especially for foreigners who get scammed, overcharged, 
-  and lost without a trusted guide.
+  Traveling India is overwhelming, unsafe, expensive, and increasingly
+  damaging to the very places tourists come to see.
+  Foreigners get scammed and can't pay digitally.
+  Domestic tourists have no trusted, adaptive planning tool.
+  And nobody is helping tourists travel responsibly.
 
 SOLUTION:
   KHOJ is India's only AI travel companion that:
@@ -843,24 +1156,35 @@ SOLUTION:
      in real-time based on weather, crowds, and your pace
   2. Lets international tourists pay like locals via RupeeGo 
      (UPI wallet with 50-currency support)
-  3. Surfaces honest, verified video reviews of hidden gems 
+  3. Surfaces honest, verified reviews of hidden gems 
      alongside famous tourist spots
   4. Keeps you safe with a one-tap SOS system
+  5. Helps you travel responsibly via Green Trail —
+     carbon tracking, eco stays, cleanup drives, and Leave No Trace
 
 WHY NOW:
   → India had 4.2B domestic tourist visits in 2025
   → 10M+ international tourists/year, growing post-COVID
+  → India's fragile ecosystems (Spiti, Andaman, Sundarbans) are under
+    pressure from tourism growth with zero responsible travel tools
   → UPI One World (NPCI's attempt) is poorly executed
-  → No app has solved the discover → plan → pay loop for India travel
+  → No app has solved the discover → plan → pay → travel responsibly loop
 
 MARKET:
-  India tourism market: $250B+ 
+  India tourism market: $250B+
   Digital capture: < 5% currently
   Our target Year 3 GMV: ₹500 crore
+  Green Trail CSR partnerships: ₹2–5 crore/year (Year 2+)
 
 BUSINESS MODEL:
   RupeeGo forex spread + Hotel/flight commissions + 
-  KHOJ Pro subscriptions + Guide marketplace
+  KHOJ Pro subscriptions + Guide marketplace +
+  Eco-certified listing fees + B2B CSR partnerships
+
+IMPACT:
+  Every KHOJ trip: 1 carbon tracked, 1 pledge taken, 1 hidden gem supported
+  Every month: X tonnes of waste reported, Y cleanup volunteers mobilized
+  "Atithi Deva Bhava — and we protect what we invite guests to see."
 
 TEAM:
   [Your name + team] — building for travelers we are
@@ -871,35 +1195,6 @@ TRACTION:
 
 ---
 
-## ⚡ Your Immediate Next 5 Actions (This Week)
-
-```
-Action 1: Register the domain
-  → khoj.travel or getkhoj.in or khojapp.com
-  → ₹800–1,500 on GoDaddy/Namecheap
-
-Action 2: Set up a waitlist landing page
-  → Use Webflow (free tier) or Carrd.co (₹800/year)
-  → Headline: "The smartest way to travel India. Coming soon."
-  → Collect emails. Start counting demand.
-
-Action 3: Read "The Mom Test" (download PDF)
-  → Then go talk to 5 tourists. This week.
-  → Don't pitch KHOJ. Just listen to their travel pain.
-
-Action 4: Join these communities
-  → NASSCOM 10000 Startups (free resources for Indian founders)
-  → Internshala Startup Community
-  → India Startup WhatsApp/Telegram groups
-  → r/indianstartups on Reddit
-
-Action 5: Start learning Flutter
-  → Install Flutter SDK today
-  → Build the "Select your interests" screen
-  → Just that one screen. See how it feels to build.
-```
-
----
-
-*KHOJ Analysis Document v1.0 | August 2026*
+*KHOJ Analysis Document v2.0 | August 2026 — Updated with Green Trail (SDG Pillar)*
 *"The best time to start was yesterday. The next best time is today."*
+
